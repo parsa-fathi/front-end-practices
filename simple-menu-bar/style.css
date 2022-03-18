@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+ul {
+  background-image: url(image/im.jpg);
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  padding: 50px;
+  /* border: px solid rgb(212, 0, 255); */
+}
+a {
+  font-family: BYagut;
+  color: rgb(161, 218, 109);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 25px;
+}
+i {
+  background-image: url(icon/icons8-wide-left-arrow-64.png);
+  background-size: cover;
+  vertical-align: -10px;
+  display: inline-block;
+  padding: 20px;
+}
+a:hover {
+  color: rgb(255, 0, 212);
+}
+li:hover {
+  background-color: rgb(9, 255, 0);
+  border: 2px groove black;
+  border-radius: 25px;
+  padding: 48px;
+}
+@font-face {
+  font-family: BYagut;
+  src: url(fonts/BYagut.ttf);
+}
